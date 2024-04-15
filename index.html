@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{ align-items: center; margin: 0px; background: #FF8A48; height: 100vh; display: flex;}
+    .main img{ width: 100%; display: flex;}
+    .main .call_btn{ width: 100%; display: flex; justify-content: center; position: absolute; margin-top: 600px;}
+    .main .call_btn a{ width: 68%; height: 50px; background: none; }
+    .logo_box{ display: flex; justify-content: end; }
+    .logo_box .logo_img{ width: 25%; margin: -15px 39px; top: -10px; position: relative;}
+    @media (max-width: 430px) {.main .call_btn {margin-top: 640px;}}
+    @media (max-width: 420px) {.main .call_btn {margin-top: 620px;}}
+    @media (max-width: 410px) {.main .call_btn {margin-top: 610px;}}
+    @media (max-width: 400px) {.main .call_btn {margin-top: 600px;}}
+    @media (max-width: 390px) {.main .call_btn {margin-top: 580px;}}
+    @media (max-width: 380px) {.main .call_btn {margin-top: 560px;}}
+    @media (max-width: 370px) {.main .call_btn {margin-top: 540px;}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="call_btn">
+        <a href="tel:01029498558"></a>
+      </div>
+      <img src="./card.png" alt="">
+    </div>
+    <div class="logo_box">
+      <img class="logo_img" src="./logo.png" alt="">
+    </div>
+  </div>
+</body>
+</html>
